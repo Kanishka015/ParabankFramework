@@ -43,3 +43,4 @@ post {
             archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
         }
     }
+}
