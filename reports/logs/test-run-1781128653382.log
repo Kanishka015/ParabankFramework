@@ -1,0 +1,12 @@
+[2026-06-10T21:57:33.462Z] [INFO] API context created
+[2026-06-10T21:57:33.464Z] [INFO] API context created
+[2026-06-10T21:57:34.475Z] [API] Validating | {"id":13344,"type":"CHECKING","balance":-995566.07}
+[2026-06-10T21:57:34.484Z] [API] Validating | {"id":14232,"type":"CHECKING","balance":1000189}
+[2026-06-10T21:57:34.488Z] [API] Validating | {"id":14343,"type":"CHECKING","balance":100}
+[2026-06-10T21:57:34.492Z] [API] Validating | {"id":14454,"type":"CHECKING","balance":100}
+[2026-06-10T21:57:34.495Z] [API] Validating | {"id":14565,"type":"SAVINGS","balance":100}
+[2026-06-10T21:57:34.499Z] [API] Validating | {"id":19560,"type":"CHECKING","balance":100}
+[2026-06-10T21:57:34.523Z] [API] GET accounts | {"status":200}
+[2026-06-10T21:57:34.531Z] [API] Accounts | {"count":6}
+[2026-06-10T21:57:34.609Z] [INFO] API context created
+[2026-06-10T21:57:35.244Z] [API] GET single account | {"status":200,"id":13344}

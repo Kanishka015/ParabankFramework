@@ -1,0 +1,16 @@
+[2026-06-11T05:51:20.017Z] [INFO] Login attempt: john
+[2026-06-11T05:51:21.022Z] [INFO] Login success
+[2026-06-11T05:51:21.734Z] [INFO] Opening account - type: SAVINGS
+[2026-06-11T05:51:22.758Z] [INFO] New account ID: 29328
+[2026-06-11T05:51:22.759Z] [INFO] UI created account: 29328
+[2026-06-11T05:51:23.575Z] [INFO] API account lookup: {"id":29328,"customerId":12212,"type":"SAVINGS","balance":100}
+[2026-06-11T05:51:26.930Z] [INFO] Login attempt: john
+[2026-06-11T05:51:27.824Z] [INFO] Login success
+[2026-06-11T05:51:29.034Z] [INFO] Transfer page ready
+[2026-06-11T05:51:29.053Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 22335, 22557, 25554, 27330, 27441, 27552, 29328, 29439, 29661, 54321
+[2026-06-11T05:51:29.380Z] [INFO] Balance before transfer: -3200
+[2026-06-11T05:51:29.381Z] [INFO] Transfer $50 from 12345 to 12456
+[2026-06-11T05:51:29.564Z] [INFO] Transfer result: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T05:51:29.884Z] [INFO] Balance after transfer: -3250
+[2026-06-11T05:51:32.955Z] [INFO] Login attempt: 
+[2026-06-11T05:51:33.444Z] [INFO] Empty credential check passed

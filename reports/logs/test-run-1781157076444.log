@@ -1,0 +1,25 @@
+[2026-06-11T05:51:20.034Z] [INFO] Login attempt: john
+[2026-06-11T05:51:21.200Z] [INFO] Login success
+[2026-06-11T05:51:21.927Z] [INFO] Opening account - type: SAVINGS
+[2026-06-11T05:51:22.838Z] [INFO] New account ID: 29439
+[2026-06-11T05:51:22.839Z] [INFO] SAVINGS account ID: 29439
+[2026-06-11T05:51:25.834Z] [INFO] Login attempt: john
+[2026-06-11T05:51:26.738Z] [INFO] Login success
+[2026-06-11T05:51:27.615Z] [INFO] Opening account - type: CHECKING
+[2026-06-11T05:51:27.999Z] [INFO] New account ID: 29661
+[2026-06-11T05:51:28.000Z] [INFO] CHECKING account ID: 29661
+[2026-06-11T05:51:31.208Z] [INFO] Login attempt: john
+[2026-06-11T05:51:32.081Z] [INFO] Login success
+[2026-06-11T05:51:36.040Z] [INFO] Login attempt: john
+[2026-06-11T05:51:36.986Z] [INFO] Login success
+[2026-06-11T05:51:37.984Z] [INFO] Transfer page ready
+[2026-06-11T05:51:38.000Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 54321
+[2026-06-11T05:51:38.001Z] [INFO] Transfer $50 from 12345 to 12456
+[2026-06-11T05:51:38.201Z] [INFO] Transfer result: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T05:51:38.202Z] [INFO] FR-08 Full result text: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T05:51:43.149Z] [INFO] Login attempt: john
+[2026-06-11T05:51:44.062Z] [INFO] Login success
+[2026-06-11T05:51:44.768Z] [INFO] Transfer page ready
+[2026-06-11T05:51:44.782Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 54321
+[2026-06-11T05:51:44.784Z] [INFO] Transfer $ from 12345 to 12456
+[2026-06-11T05:51:44.942Z] [INFO] Empty amount correctly blocked

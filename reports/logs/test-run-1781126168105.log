@@ -1,0 +1,20 @@
+[2026-06-10T21:16:09.254Z] [INFO] TEST START: Create new CHECKING account
+[2026-06-10T21:16:09.256Z] [INFO] Navigating to ParaBank home page
+[2026-06-10T21:16:09.282Z] [INFO] TEST START: Create new SAVINGS account
+[2026-06-10T21:16:09.285Z] [INFO] Navigating to ParaBank home page
+[2026-06-10T21:16:11.616Z] [INFO] Attempting login with username: john
+[2026-06-10T21:16:11.669Z] [INFO] Attempting login with username: john
+[2026-06-10T21:16:12.590Z] [INFO] Login form submitted
+[2026-06-10T21:16:12.591Z] [INFO] Asserting successful login
+[2026-06-10T21:16:12.632Z] [INFO] Login form submitted
+[2026-06-10T21:16:12.643Z] [INFO] Asserting successful login
+[2026-06-10T21:16:12.672Z] [INFO] Login successful - URL contains /overview
+[2026-06-10T21:16:12.673Z] [INFO] Navigating to Open New Account page
+[2026-06-10T21:16:12.727Z] [INFO] Login successful - URL contains /overview
+[2026-06-10T21:16:12.729Z] [INFO] Navigating to Open New Account page
+[2026-06-10T21:16:13.047Z] [INFO] Opening new account - type: SAVINGS
+[2026-06-10T21:16:13.118Z] [INFO] Opening new account - type: CHECKING
+[2026-06-10T21:16:13.252Z] [INFO] New account created: 
+[2026-06-10T21:16:13.253Z] [INFO] TEST PASS: Account created with ID: 
+[2026-06-10T21:16:13.315Z] [INFO] New account created: 
+[2026-06-10T21:16:13.316Z] [INFO] TEST PASS: Account created with ID: 

@@ -1,0 +1,31 @@
+[2026-06-11T06:11:14.253Z] [INFO] Login attempt: john
+[2026-06-11T06:11:18.031Z] [INFO] Login success
+[2026-06-11T06:11:19.981Z] [INFO] Opening account - type: SAVINGS
+[2026-06-11T06:11:20.401Z] [INFO] New account ID: 22446
+[2026-06-11T06:11:20.402Z] [INFO] UI created account: 22446
+[2026-06-11T06:11:21.608Z] [INFO] API account lookup: {"id":22446,"customerId":12212,"type":"SAVINGS","balance":100}
+[2026-06-11T06:11:25.750Z] [INFO] Login attempt: john
+[2026-06-11T06:11:26.635Z] [INFO] Login success
+[2026-06-11T06:11:27.518Z] [INFO] Transfer page ready
+[2026-06-11T06:11:27.531Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 22446, 54321
+[2026-06-11T06:11:27.869Z] [INFO] Balance before transfer: -2400
+[2026-06-11T06:11:27.870Z] [INFO] Transfer $50 from 12345 to 12456
+[2026-06-11T06:11:28.036Z] [INFO] Transfer result: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T06:11:28.421Z] [INFO] Balance after transfer: -2450
+[2026-06-11T06:11:32.161Z] [INFO] Login attempt: john
+[2026-06-11T06:11:33.029Z] [INFO] Login success
+[2026-06-11T06:11:36.485Z] [INFO] Login attempt: 
+[2026-06-11T06:11:36.934Z] [INFO] Empty credential check passed
+[2026-06-11T06:11:40.484Z] [INFO] Login attempt: john
+[2026-06-11T06:11:41.321Z] [INFO] Login success
+[2026-06-11T06:11:42.204Z] [INFO] Transfer page ready
+[2026-06-11T06:11:42.213Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 22446, 22668, 22779, 54321
+[2026-06-11T06:11:42.213Z] [INFO] Transfer $50 from 12345 to 12456
+[2026-06-11T06:11:42.341Z] [INFO] Transfer result: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T06:11:42.341Z] [INFO] FR-08 Full result text: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T06:11:45.378Z] [INFO] Login attempt: john
+[2026-06-11T06:11:46.172Z] [INFO] Login success
+[2026-06-11T06:11:47.896Z] [INFO] Transfer page ready
+[2026-06-11T06:11:47.905Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 22446, 22668, 22779, 54321
+[2026-06-11T06:11:47.905Z] [INFO] Transfer $ from 12345 to 12456
+[2026-06-11T06:11:48.038Z] [INFO] Empty amount correctly blocked

@@ -1,0 +1,14 @@
+[2026-06-12T06:47:38.867Z] [INFO] API context created
+[2026-06-12T06:47:39.861Z] [API] Validated | {"id":12345,"type":"CHECKING"}
+[2026-06-12T06:47:39.866Z] [API] Validated | {"id":12456,"type":"CHECKING"}
+[2026-06-12T06:47:39.872Z] [API] Validated | {"id":12567,"type":"CHECKING"}
+[2026-06-12T06:47:39.877Z] [API] Validated | {"id":12678,"type":"SAVINGS"}
+[2026-06-12T06:47:39.881Z] [API] Validated | {"id":12789,"type":"CHECKING"}
+[2026-06-12T06:47:39.886Z] [API] Validated | {"id":12900,"type":"CHECKING"}
+[2026-06-12T06:47:39.895Z] [API] Validated | {"id":13011,"type":"CHECKING"}
+[2026-06-12T06:47:39.908Z] [API] Validated | {"id":13122,"type":"CHECKING"}
+[2026-06-12T06:47:39.912Z] [API] Validated | {"id":13233,"type":"CHECKING"}
+[2026-06-12T06:47:39.915Z] [API] Validated | {"id":13344,"type":"SAVINGS"}
+[2026-06-12T06:47:39.919Z] [API] Validated | {"id":54321,"type":"CHECKING"}
+[2026-06-12T06:47:40.019Z] [INFO] API context created
+[2026-06-12T06:47:40.869Z] [API] Single account valid | {"id":12345,"type":"CHECKING","balance":-2300}

@@ -1,0 +1,5 @@
+[2026-06-12T06:46:32.326Z] [INFO] API response time: 949ms
+[2026-06-12T06:46:37.969Z] [INFO] Page load time: 5301ms
+[2026-06-12T06:46:37.971Z] [WARN] Page load slow: 5301ms
+[2026-06-12T06:46:41.034Z] [INFO] 20 async requests in 2664ms
+[2026-06-12T06:46:49.172Z] [INFO] Login attempt: john

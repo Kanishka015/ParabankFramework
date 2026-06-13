@@ -1,0 +1,5 @@
+[2026-06-10T21:03:45.936Z] [INFO] TEST START: Invalid login
+[2026-06-10T21:03:45.938Z] [INFO] Navigating to ParaBank home page
+[2026-06-10T21:03:48.901Z] [INFO] Attempting login with username: invaliduser_1781125428901
+[2026-06-10T21:03:49.931Z] [INFO] Login form submitted
+[2026-06-10T21:03:49.933Z] [INFO] Asserting login failure

@@ -1,0 +1,12 @@
+[2026-06-11T05:49:11.799Z] [INFO] Login attempt: john
+[2026-06-11T05:49:12.793Z] [INFO] Login success
+[2026-06-11T05:49:13.539Z] [INFO] Opening account - type: SAVINGS
+[2026-06-11T05:49:13.957Z] [INFO] New account ID: 27330
+[2026-06-11T05:49:13.958Z] [INFO] SAVINGS account ID: 27330
+[2026-06-11T05:49:17.728Z] [INFO] Login attempt: john
+[2026-06-11T05:49:18.574Z] [INFO] Login success
+[2026-06-11T05:49:19.677Z] [INFO] Opening account - type: CHECKING
+[2026-06-11T05:49:20.075Z] [INFO] New account ID: 27552
+[2026-06-11T05:49:20.076Z] [INFO] CHECKING account ID: 27552
+[2026-06-11T05:49:24.517Z] [INFO] Login attempt: john
+[2026-06-11T05:49:25.481Z] [INFO] Login success

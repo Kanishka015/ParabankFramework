@@ -1,0 +1,27 @@
+[2026-06-11T05:43:23.899Z] [INFO] Login attempt: john
+[2026-06-11T05:43:24.009Z] [INFO] Login attempt: john
+[2026-06-11T05:43:24.969Z] [INFO] Login success
+[2026-06-11T05:43:25.103Z] [INFO] Login success
+[2026-06-11T05:43:25.961Z] [INFO] Opening account - type: SAVINGS
+[2026-06-11T05:43:26.424Z] [INFO] New account ID: 22335
+[2026-06-11T05:43:26.424Z] [INFO] SAVINGS account ID: 22335
+[2026-06-11T05:43:29.035Z] [INFO] Login attempt: 
+[2026-06-11T05:43:29.569Z] [INFO] Empty credential check passed
+[2026-06-11T05:43:30.583Z] [INFO] Login attempt: john
+[2026-06-11T05:43:31.842Z] [INFO] Login success
+[2026-06-11T05:43:32.420Z] [INFO] Login attempt: john
+[2026-06-11T05:43:33.355Z] [INFO] Login success
+[2026-06-11T05:43:33.508Z] [INFO] Opening account - type: CHECKING
+[2026-06-11T05:43:33.923Z] [INFO] New account ID: 22557
+[2026-06-11T05:43:33.924Z] [INFO] CHECKING account ID: 22557
+[2026-06-11T05:43:34.589Z] [INFO] Transfer page ready
+[2026-06-11T05:43:34.604Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 22335, 22557, 54321
+[2026-06-11T05:43:34.605Z] [INFO] Transfer $50 from 12345 to 12456
+[2026-06-11T05:43:34.815Z] [INFO] Transfer result: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T05:43:34.815Z] [INFO] FR-08 Full result text: Transfer Complete! has been transferred from account # to account #. See Account Activity for more details.
+[2026-06-11T05:43:38.339Z] [INFO] Login attempt: john
+[2026-06-11T05:43:39.259Z] [INFO] Login success
+[2026-06-11T05:43:40.056Z] [INFO] Transfer page ready
+[2026-06-11T05:43:40.071Z] [INFO] Available accounts: 12345, 12456, 12567, 12678, 12789, 12900, 13011, 13122, 13233, 13344, 22335, 22557, 54321
+[2026-06-11T05:43:40.071Z] [INFO] Transfer $ from 12345 to 12456
+[2026-06-11T05:43:40.241Z] [INFO] Empty amount correctly blocked

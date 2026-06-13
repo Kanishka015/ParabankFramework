@@ -1,0 +1,2 @@
+[2026-06-10T21:46:01.793Z] [INFO] API context created - baseURL: https://parabank.parasoft.com/parabank/services/bank
+[2026-06-10T21:46:02.496Z] [API] GET accounts | {"status":404}
