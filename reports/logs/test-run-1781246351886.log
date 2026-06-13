@@ -1,5 +1,0 @@
-[2026-06-12T06:39:12.025Z] [INFO] API context created
-[2026-06-12T06:39:13.047Z] [API] GET accounts | {"status":200}
-[2026-06-12T06:39:13.106Z] [API] Schema valid | {"count":11}
-[2026-06-12T06:39:13.216Z] [INFO] API context created
-[2026-06-12T06:39:13.971Z] [API] Single account valid | {"id":12345,"type":"CHECKING","balance":-2300}

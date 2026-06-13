@@ -1,7 +1,0 @@
-[2026-06-10T21:03:45.916Z] [INFO] TEST START: Valid login
-[2026-06-10T21:03:45.918Z] [INFO] Navigating to ParaBank home page
-[2026-06-10T21:03:48.715Z] [INFO] Attempting login with username: john
-[2026-06-10T21:03:49.751Z] [INFO] Login form submitted
-[2026-06-10T21:03:49.752Z] [INFO] Asserting successful login
-[2026-06-10T21:03:49.829Z] [INFO] Login successful - URL contains /overview
-[2026-06-10T21:03:49.830Z] [INFO] TEST PASS: Valid login

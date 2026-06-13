@@ -1,7 +1,0 @@
-[2026-06-10T21:07:18.158Z] [INFO] TEST START: Empty credentials validation
-[2026-06-10T21:07:18.161Z] [INFO] Navigating to ParaBank home page
-[2026-06-10T21:07:20.737Z] [INFO] Attempting login with username: 
-[2026-06-10T21:07:21.298Z] [INFO] Login form submitted
-[2026-06-10T21:07:21.299Z] [INFO] Asserting empty credential validation error
-[2026-06-10T21:07:21.375Z] [INFO] Validation confirmed - page did not navigate to overview
-[2026-06-10T21:07:21.375Z] [INFO] TEST PASS: Empty credential validation confirmed

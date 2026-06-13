@@ -1,7 +1,0 @@
-[2026-06-12T06:46:33.928Z] [INFO] Login attempt: john
-[2026-06-12T06:46:35.508Z] [INFO] Login success
-[2026-06-12T06:46:37.094Z] [INFO] Opening account - type: SAVINGS
-[2026-06-12T06:46:37.787Z] [INFO] New account ID: 13677
-[2026-06-12T06:46:37.788Z] [INFO] UI created account: 13677
-[2026-06-12T06:46:39.625Z] [INFO] API account lookup: {"id":13677,"customerId":12212,"type":"SAVINGS","balance":100}
-[2026-06-12T06:46:44.992Z] [INFO] Login attempt: john
