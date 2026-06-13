@@ -10,9 +10,9 @@ export default defineConfig({
   expect: { timeout: 10000 },
 
   reporter: [
-  ["html", { outputFolder: "reports/html", open: "never" }],
-  ["allure-playwright", { outputFolder: "reports/allure-results" }],
-  ["json", { outputFile: "reports/results.json" }],  // ← add this
+  ["html", { outputFolder: "playwright-report", open: "never" }],
+  ["allure-playwright", { outputFolder: "allure-results" }],
+  ["json", { outputFile: "reports/results.json" }],  
   ["list"],
 ],
 
