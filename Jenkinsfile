@@ -27,15 +27,13 @@ pipeline {
             }
         }
     }
-
-    post {
+post {
         always {
-
             publishHTML([
                 allowMissing: false,
                 alwaysLinkToLastBuild: true,
                 keepAll: true,
-                reportDir: 'playwright-report',
+                reportDir: 'playwright-report/html',   // <-- Added /html here
                 reportFiles: 'index.html',
                 reportName: 'Playwright Report',
                 includes: '**/*'
@@ -45,4 +43,3 @@ pipeline {
             archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
         }
     }
-}
