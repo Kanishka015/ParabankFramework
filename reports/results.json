@@ -109,13 +109,13 @@
   },
   "suites": [
     {
-      "title": "performance\\api-request.spec.ts",
-      "file": "performance/api-request.spec.ts",
+      "title": "ui\\create-savings-acc.spec.ts",
+      "file": "ui/create-savings-acc.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "TC-PERF-02: API successfully handles standard data requests",
+          "title": "Create Savings Account",
           "ok": true,
           "tags": [],
           "tests": [
@@ -130,18 +130,28 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1105,
+                  "duration": 11180,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T11:32:51.061Z",
+                  "startTime": "2026-06-14T20:15:46.949Z",
                   "annotations": [],
                   "attachments": [
                     {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-create-savings-acc-Create-Savings-Account-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-create-savings-acc-Create-Savings-Account-chromium\\video.webm"
+                    },
+                    {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\performance-api-request-TC-6c810-dles-standard-data-requests-chromium\\trace.zip"
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-create-savings-acc-Create-Savings-Account-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -149,9 +159,9 @@
               "status": "expected"
             }
           ],
-          "id": "acd8bc94d3cf40290290-d13edd58abc4483c7b2e",
-          "file": "performance/api-request.spec.ts",
-          "line": 3,
+          "id": "86f29b9d90657954feba-58bf1d25f26584abbb7e",
+          "file": "ui/create-savings-acc.spec.ts",
+          "line": 6,
           "column": 5
         }
       ]
@@ -159,8 +169,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-14T11:32:50.621Z",
-    "duration": 1607.502,
+    "startTime": "2026-06-14T20:15:45.807Z",
+    "duration": 14565.757,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

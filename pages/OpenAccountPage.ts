@@ -22,7 +22,6 @@ export class OpenAccountPage {
         await this.openNewAccountButton.click();
     }
 
-    // THIS is the method the terminal was missing!
     async getSuccessMessage() {
         return await this.successHeading.innerText();
     }
