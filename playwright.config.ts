@@ -34,11 +34,6 @@ export default defineConfig({
       testMatch: ["**/ui/**", "**/e2e/**", "**/performance/**", "**/negative/**", "**/api/**"], 
     },
     {
-      name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
-      testMatch: ["**/ui/**", "**/e2e/**", "**/performance-lite/**"],
-    },
-    {
       name: "firefox",
       use: { ...devices["Desktop Firefox"] },
       testMatch: ["**/ui/**", "**/e2e/**"],

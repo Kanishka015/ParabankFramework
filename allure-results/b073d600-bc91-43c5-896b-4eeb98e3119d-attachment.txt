@@ -1,2 +1,0 @@
-UI Action: $50 Transfer successfully completed on frontend.
-Hybrid E2E Passed: Backend database is synced and stable post-transfer.

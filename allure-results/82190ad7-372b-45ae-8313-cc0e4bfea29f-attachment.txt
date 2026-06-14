@@ -1,5 +1,0 @@
-API Call number 1 passed successfully.
-API Call number 2 passed successfully.
-API Call number 3 passed successfully.
-API Call number 4 passed successfully.
-API Call number 5 passed successfully.
