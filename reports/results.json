@@ -130,16 +130,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 10097,
+                  "duration": 9708,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Account ID from API is: 12345\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:23.061Z",
+                  "startTime": "2026-06-14T23:32:22.656Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -192,16 +188,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 1419,
+                  "duration": 1342,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Fetched Balance: $-2220.25\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:23.060Z",
+                  "startTime": "2026-06-14T23:32:22.659Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -244,16 +236,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 974,
+                  "duration": 1014,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Successfully verified independent API lookup for Account ID: 12345\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:24.563Z",
+                  "startTime": "2026-06-14T23:32:24.087Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -296,12 +284,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 667,
+                  "duration": 658,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:25.575Z",
+                  "startTime": "2026-06-14T23:32:25.142Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -349,7 +337,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:26.279Z",
+                  "startTime": "2026-06-14T23:32:25.845Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -392,12 +380,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 756,
+                  "duration": 697,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:26.997Z",
+                  "startTime": "2026-06-14T23:32:26.576Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -440,16 +428,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 10743,
+                  "duration": 9746,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Full Lifecycle E2E Passed: Login -> Create Account -> Fund Account.\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:27.790Z",
+                  "startTime": "2026-06-14T23:32:27.325Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -502,22 +486,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6322,
+                  "duration": 6592,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "UI successfully created Account ID: 13899\n"
-                    },
-                    {
-                      "text": "Pinging backend API to verify Account ID: 13899 exists...\n"
-                    },
-                    {
-                      "text": "Hybrid E2E Test Passed: Frontend UI and Backend API are perfectly synced!\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:34.398Z",
+                  "startTime": "2026-06-14T23:32:32.706Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -570,7 +544,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 5846,
+                  "duration": 6072,
                   "errors": [],
                   "stdout": [
                     {
@@ -582,7 +556,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:38.872Z",
+                  "startTime": "2026-06-14T23:32:37.430Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -635,12 +609,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 338,
+                  "duration": 336,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:40.890Z",
+                  "startTime": "2026-06-14T23:32:39.490Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -674,38 +648,50 @@
           "tests": [
             {
               "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\tests\\negative\\invalid-customer-id.api.spec.ts",
+                    "line": 6,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
               "projectId": "chromium",
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 333,
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:41.262Z",
-                  "annotations": [],
-                  "attachments": [
+                  "startTime": "2026-06-14T23:32:39.880Z",
+                  "annotations": [
                     {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-invalid-customer--23d7c--existent-customer-accounts-chromium\\trace.zip"
+                      "type": "skip",
+                      "location": {
+                        "file": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\tests\\negative\\invalid-customer-id.api.spec.ts",
+                        "line": 6,
+                        "column": 6
+                      }
                     }
-                  ]
+                  ],
+                  "attachments": []
                 }
               ],
-              "status": "expected"
+              "status": "skipped"
             }
           ],
           "id": "108a64959d94ab14a6bd-82533d99b840b572f3e6",
           "file": "negative/invalid-customer-id.api.spec.ts",
-          "line": 3,
-          "column": 5
+          "line": 6,
+          "column": 6
         }
       ]
     },
@@ -731,12 +717,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3729,
+                  "duration": 3701,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:41.630Z",
+                  "startTime": "2026-06-14T23:32:39.894Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -789,12 +775,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 3225,
+                  "duration": 3148,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:44.910Z",
+                  "startTime": "2026-06-14T23:32:43.695Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -847,12 +833,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5986,
+                  "duration": 5641,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:45.504Z",
+                  "startTime": "2026-06-14T23:32:43.739Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -905,12 +891,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 6004,
+                  "duration": 5611,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:48.240Z",
+                  "startTime": "2026-06-14T23:32:46.982Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -963,12 +949,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2061,
+                  "duration": 2395,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:51.636Z",
+                  "startTime": "2026-06-14T23:32:49.556Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1021,12 +1007,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 345,
+                  "duration": 336,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:53.783Z",
+                  "startTime": "2026-06-14T23:32:52.031Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1069,16 +1055,16 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 321,
+                  "duration": 326,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "API took 305 milliseconds\n"
+                      "text": "API took 310 milliseconds\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:54.159Z",
+                  "startTime": "2026-06-14T23:32:52.404Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1121,12 +1107,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 5224,
+                  "duration": 5039,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:54.391Z",
+                  "startTime": "2026-06-14T23:32:52.748Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1179,12 +1165,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5581,
+                  "duration": 4836,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:54.514Z",
+                  "startTime": "2026-06-14T23:32:52.766Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1234,15 +1220,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
-                  "parallelIndex": 1,
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3424,
+                  "duration": 3348,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:04:59.769Z",
+                  "startTime": "2026-06-14T23:32:57.746Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1292,15 +1278,15 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 5577,
+                  "duration": 5617,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T23:05:00.262Z",
+                  "startTime": "2026-06-14T23:32:57.932Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -1334,10 +1320,10 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-14T23:04:22.199Z",
-    "duration": 43904.564,
-    "expected": 22,
-    "skipped": 0,
+    "startTime": "2026-06-14T23:32:21.725Z",
+    "duration": 42194.195,
+    "expected": 21,
+    "skipped": 1,
     "unexpected": 0,
     "flaky": 0
   }
