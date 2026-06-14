@@ -22,5 +22,5 @@ test('Successfully fetch specific account by Account ID', async ({ request }) =>
     const singleAccountData = await singleAccountResponse.json();
     
     expect(singleAccountData.id).toBe(targetAccountId);
-    console.info(`Successfully verified independent API lookup for Account ID: ${targetAccountId}`);
+   
 });

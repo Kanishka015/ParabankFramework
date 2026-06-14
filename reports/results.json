@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "projects": [
@@ -20,7 +20,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -40,7 +40,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "firefox",
         "name": "firefox",
@@ -57,7 +57,7 @@
         "repeatEach": 1,
         "retries": 1,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "api",
         "name": "api",
@@ -109,6 +109,1055 @@
   },
   "suites": [
     {
+      "title": "api\\api-to-ui.spec.ts",
+      "file": "api/api-to-ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify API Account shows up on UI",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10097,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Account ID from API is: 12345\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:23.061Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-api-to-ui-Verify-API-Account-shows-up-on-UI-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-api-to-ui-Verify-API-Account-shows-up-on-UI-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-api-to-ui-Verify-API-Account-shows-up-on-UI-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f42b6d00ece6874ea948-9159e114ca74dab4e48c",
+          "file": "api/api-to-ui.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "api\\check-balance-numeric.spec.ts",
+      "file": "api/check-balance-numeric.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify account balance is a valid numeric format",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1419,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Fetched Balance: $-2220.25\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:23.060Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-check-balance-numeric--603d3-e-is-a-valid-numeric-format-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c3503e2aa0aa1ed10573-9bf4ae4aa7b84f3d27f8",
+          "file": "api/check-balance-numeric.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "api\\get-accounts-id.spec.ts",
+      "file": "api/get-accounts-id.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Successfully fetch specific account by Account ID",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 974,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Successfully verified independent API lookup for Account ID: 12345\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:24.563Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-get-accounts-id-Succes-7ea97-cific-account-by-Account-ID-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e88eaa7d1c65d2293bc9-d5567b6f1299694bca86",
+          "file": "api/get-accounts-id.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "api\\get-sccountss-list.spec.ts",
+      "file": "api/get-sccountss-list.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Successfully fetch list of accounts for customer",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 667,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:25.575Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-get-sccountss-list-Suc-06dca-st-of-accounts-for-customer-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9e8d4651de142cf63144-1f64ac5ab3f7189b5c51",
+          "file": "api/get-sccountss-list.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "api\\validate-schema-specs.spec.ts",
+      "file": "api/validate-schema-specs.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Validate Account API Schema Fields",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 664,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:26.279Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-validate-schema-specs-Validate-Account-API-Schema-Fields-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c1405559c7779dcf5234-9e500f66fc1057c8e6a9",
+          "file": "api/validate-schema-specs.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "api\\verify-acc-types.spec.ts",
+      "file": "api/verify-acc-types.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify account type strings are valid",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 756,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:26.997Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\api-verify-acc-types-Verify-account-type-strings-are-valid-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "818477dc8067936ea1cc-48bce2368743a69db124",
+          "file": "api/verify-acc-types.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\account-e2e.spec.ts",
+      "file": "e2e/account-e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Full User Account Lifecycle",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10743,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Full Lifecycle E2E Passed: Login -> Create Account -> Fund Account.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:27.790Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-account-e2e-Full-User-Account-Lifecycle-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-account-e2e-Full-User-Account-Lifecycle-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-account-e2e-Full-User-Account-Lifecycle-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "479aeb718cc5d8f527c7-bd05eb95e97f5269d5ff",
+          "file": "e2e/account-e2e.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\createacc-n-verify.spec.ts",
+      "file": "e2e/createacc-n-verify.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Hybrid Validation - UI Creation & API Verification",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6322,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "UI successfully created Account ID: 13899\n"
+                    },
+                    {
+                      "text": "Pinging backend API to verify Account ID: 13899 exists...\n"
+                    },
+                    {
+                      "text": "Hybrid E2E Test Passed: Frontend UI and Backend API are perfectly synced!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:34.398Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-createacc-n-verify-Hyb-98c63-I-Creation-API-Verification-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-createacc-n-verify-Hyb-98c63-I-Creation-API-Verification-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-createacc-n-verify-Hyb-98c63-I-Creation-API-Verification-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "878df6bee8a2a2a959e1-7dd07f3ad3e0c3547775",
+          "file": "e2e/createacc-n-verify.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "e2e\\transfer-verify-balance.spec.ts",
+      "file": "e2e/transfer-verify-balance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Transfer Funds UI & Verify API Stability",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5846,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "UI Action: $50 Transfer successfully completed on frontend.\n"
+                    },
+                    {
+                      "text": "Hybrid E2E Passed: Backend database is synced and stable post-transfer.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:38.872Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-transfer-verify-balanc-586c6-nds-UI-Verify-API-Stability-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-transfer-verify-balanc-586c6-nds-UI-Verify-API-Stability-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\e2e-transfer-verify-balanc-586c6-nds-UI-Verify-API-Stability-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "52698748cb8ed46cc603-6de637aeba17d4f3c4eb",
+          "file": "e2e/transfer-verify-balance.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\invalid-api-credentials.api.spec.ts",
+      "file": "negative/invalid-api-credentials.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prevent API login with invalid credentials",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 338,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:40.890Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-invalid-api-crede-89b01-in-with-invalid-credentials-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7133f2714c70608a2239-7a0353b7083354e25457",
+          "file": "negative/invalid-api-credentials.api.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\invalid-customer-id.api.spec.ts",
+      "file": "negative/invalid-customer-id.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prevent access to non-existent customer accounts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 333,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:41.262Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-invalid-customer--23d7c--existent-customer-accounts-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "108a64959d94ab14a6bd-82533d99b840b572f3e6",
+          "file": "negative/invalid-customer-id.api.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\login-invalid-pass.spec.ts",
+      "file": "negative/login-invalid-pass.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login Fails with Wrong Password",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3729,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:41.630Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-login-invalid-pass-Login-Fails-with-Wrong-Password-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-login-invalid-pass-Login-Fails-with-Wrong-Password-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-login-invalid-pass-Login-Fails-with-Wrong-Password-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7b35b7c6cb250e21c4a3-10148e6382ba99e0216b",
+          "file": "negative/login-invalid-pass.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\loginempty-fields.spec.ts",
+      "file": "negative/loginempty-fields.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Empty credentials stays on login page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:44.910Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-loginempty-fields-52902-entials-stays-on-login-page-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-loginempty-fields-52902-entials-stays-on-login-page-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-loginempty-fields-52902-entials-stays-on-login-page-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98b058d50f8a127dbdc9-8e76a1908e001bdfbc7d",
+          "file": "negative/loginempty-fields.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\transfer-same-acc.spec.ts",
+      "file": "negative/transfer-same-acc.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prevent Transfer to Same Account",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5986,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:45.504Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-transfer-same-acc-Prevent-Transfer-to-Same-Account-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-transfer-same-acc-Prevent-Transfer-to-Same-Account-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-transfer-same-acc-Prevent-Transfer-to-Same-Account-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "1d66cb2b05f5396506b6-edabff865f01faa107a1",
+          "file": "negative/transfer-same-acc.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\transfer-zero.spec.ts",
+      "file": "negative/transfer-zero.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Prevent Transferring Zero Amount",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6004,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:48.240Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-transfer-zero-Prevent-Transferring-Zero-Amount-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-transfer-zero-Prevent-Transferring-Zero-Amount-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-transfer-zero-Prevent-Transferring-Zero-Amount-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b7ac5c789290abb0f4ef-a1821a7d007222ce3d8e",
+          "file": "negative/transfer-zero.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "negative\\unauth-url-access.spec.ts",
+      "file": "negative/unauth-url-access.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Direct URL Access Shows Error",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2061,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:51.636Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-unauth-url-access-Direct-URL-Access-Shows-Error-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-unauth-url-access-Direct-URL-Access-Shows-Error-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\negative-unauth-url-access-Direct-URL-Access-Shows-Error-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3414883d12b55d1e3aa5-84bb9260761ae3f0b418",
+          "file": "negative/unauth-url-access.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "performance\\api-request.spec.ts",
+      "file": "performance/api-request.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API successfully handles standard data requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 345,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:53.783Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\performance-api-request-AP-bc946-dles-standard-data-requests-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "acd8bc94d3cf40290290-0b70f31dfdd7e58cad4b",
+          "file": "performance/api-request.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "performance\\api-response-time.spec.ts",
+      "file": "performance/api-response-time.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API Response Time is under 2 seconds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 321,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "API took 305 milliseconds\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:54.159Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\performance-api-response-t-d5c52-nse-Time-is-under-2-seconds-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cd9cd5af022f34576e8c-d8f135f6a9cd0f382025",
+          "file": "performance/api-response-time.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ui\\create-checking-acc.spec.ts",
+      "file": "ui/create-checking-acc.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create Checking Account",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5224,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:54.391Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-create-checking-acc-Create-Checking-Account-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-create-checking-acc-Create-Checking-Account-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-create-checking-acc-Create-Checking-Account-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "83e1135a51f4ad7222a4-29d9df9fb1f331476b33",
+          "file": "ui/create-checking-acc.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "ui\\create-savings-acc.spec.ts",
       "file": "ui/create-savings-acc.spec.ts",
       "column": 0,
@@ -130,12 +1179,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 11180,
+                  "duration": 5581,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-06-14T20:15:46.949Z",
+                  "startTime": "2026-06-14T23:04:54.514Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -165,13 +1214,129 @@
           "column": 5
         }
       ]
+    },
+    {
+      "title": "ui\\login.spec.ts",
+      "file": "ui/login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Valid login redirects to overview",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3424,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:04:59.769Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-login-Valid-login-redirects-to-overview-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-login-Valid-login-redirects-to-overview-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-login-Valid-login-redirects-to-overview-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "25217b8bb4316ea872c4-d043a4958878e1c7e44b",
+          "file": "ui/login.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ui\\transfer-success.spec.ts",
+      "file": "ui/transfer-success.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Transfer Funds Successfully",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5577,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-06-14T23:05:00.262Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-transfer-success-Transfer-Funds-Successfully-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-transfer-success-Transfer-Funds-Successfully-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\offic\\Downloads\\parabank-playwrightFramework\\reports\\test-artifacts\\ui-transfer-success-Transfer-Funds-Successfully-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "caa3c8daf4a390647d2f-027a5ca5425370ed5098",
+          "file": "ui/transfer-success.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-06-14T20:15:45.807Z",
-    "duration": 14565.757,
-    "expected": 1,
+    "startTime": "2026-06-14T23:04:22.199Z",
+    "duration": 43904.564,
+    "expected": 22,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

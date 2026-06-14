@@ -23,5 +23,5 @@ test('Full User Account Lifecycle', async ({ page }) => {
     await transferPage.transfer('100', 0, 0); 
     
     await expect(transferPage.successHeading).toContainText('Transfer Complete');
-    console.log('Full Lifecycle E2E Passed: Login -> Create Account -> Fund Account.');
+   
 });

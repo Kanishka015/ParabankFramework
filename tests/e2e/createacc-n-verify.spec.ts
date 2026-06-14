@@ -7,7 +7,6 @@ test('Hybrid Validation - UI Creation & API Verification', async ({ page, reques
     const loginPage = new LoginPage(page);
     const accountPage = new OpenAccountPage(page);
 
-    //frontend
     await loginPage.navigate();
     await loginPage.login(users.ValidUser.username, users.ValidUser.password);
 
@@ -18,14 +17,8 @@ test('Hybrid Validation - UI Creation & API Verification', async ({ page, reques
     await accountIdElement.waitFor();
     const newAccountId = await accountIdElement.innerText();
     
-    console.log(`UI successfully created Account ID: ${newAccountId}`);
     expect(newAccountId).toBeTruthy(); // Ensure it isn't blank
 
-    //backend
-    
-    console.log(`Pinging backend API to verify Account ID: ${newAccountId} exists...`);
-
-    //hit api
     const apiResponse = await request.get(`/parabank/services/bank/accounts/${newAccountId}`, {
         headers: { 'Accept': 'application/json' }
     });
@@ -36,6 +29,5 @@ test('Hybrid Validation - UI Creation & API Verification', async ({ page, reques
 
     
     expect(accountData.id.toString()).toBe(newAccountId);
-    
-    console.log('Hybrid E2E Test Passed: Frontend UI and Backend API are perfectly synced!');
+
 });

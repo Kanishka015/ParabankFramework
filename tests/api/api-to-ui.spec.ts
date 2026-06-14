@@ -15,7 +15,6 @@ test('Verify API Account shows up on UI', async ({ page, request }) => {
     const accountsList = await accountsResponse.json();
     
     const apiAccountId = accountsList[0].id; 
-    console.log(`Account ID from API is: ${apiAccountId}`);
 
     const loginPage = new LoginPage(page);
     await loginPage.navigate();

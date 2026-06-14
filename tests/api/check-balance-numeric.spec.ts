@@ -15,8 +15,7 @@ test('Verify account balance is a valid numeric format', async ({ request }) => 
     const accounts = await accountsResponse.json();
     
     const firstAccountBalance = accounts[0].balance;
-    console.info(`Fetched Balance: $${firstAccountBalance}`);
-
+    
     const numericBalance = Number(firstAccountBalance);
     expect(isNaN(numericBalance)).toBeFalsy();
 });
